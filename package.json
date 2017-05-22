@@ -1,0 +1,23 @@
+{
+  "name": "developing-with-microservices",
+  "version": "0.0.1",
+  "description": "A presentation about microservices",
+  "scripts": {},
+  "author": {
+    "name": "Aaron Moller",
+    "email": "moller.aaron@gmail.com",
+    "web": "http://www.aaronmoller.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aaronmoller/developing-with-microservices.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "dependencies": {
+    "reveal.js": "^3.5.0"
+  }
+}

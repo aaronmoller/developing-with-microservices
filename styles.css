@@ -1,0 +1,154 @@
+body {
+    min-height: 640px;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+}
+.slide-title {
+    font-size: 2em;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+}
+.flex-container.flex-container-row {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.flex-container.flex-container-column {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.flex-container.flex-container-center{
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.flex-container.flex-container-left{
+    -webkit-align-items: left;
+    align-items: left;
+    -webkit-justify-content: left;
+    justify-content: left;
+}
+.flex-child {
+    flex: 1 0 0;
+}
+.flex-child:last-of-type {
+    margin-left: 15px;
+}
+.xl-icon {
+    font-size: 3em;
+}
+textarea.code-block {
+    font-size: 0.3em;
+}
+.ui-widget {
+    font-size: 3em;
+}
+/* material looking stuff */
+label {
+    text-align: left;
+}
+#simpleForm #simpleForm input:not([type]), #simpleForm input[type=text], #simpleForm input[type=password], #simpleForm input[type=email], #simpleForm input[type=url], #simpleForm input[type=time], #simpleForm input[type=date], #simpleForm input[type=datetime], #simpleForm input[type=datetime-local], #simpleForm input[type=tel], #simpleForm input[type=number] {
+    font-size: 3rem;
+}
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    color:#ffffff;
+    outline: none;
+    height: auto;
+    width: 100%;
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+input[type=file] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    color:#669933;
+    outline: none;
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+input.hidden {
+    display:none;
+}
+.input-field {
+    position: relative;
+    margin-top: 1rem
+}
+.input-field .select-wrapper {
+    position: relative
+}
+.input-field .select-wrapper select {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    height: 2rem;
+    font-size: 1rem;
+}
+label {
+    color: #bbbbbb;
+}
+button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #669933;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent
+}
+.reveal blockquote {
+    padding: 25px;
+}
+/* iframes for giphy */
+iframe.gif-frame {
+    min-width: 480px;
+    min-height: 360px;
+    margin-top: 25px;
+}
+p.caption {
+    font-size: 0.5em;
+}
+p.list-heading {
+    font-size:4rem;
+}
+#imageViewer {
+    width:40%;
+}
+.reveal .small-text .flex-child p {
+    font-size: 1.5rem;
+}

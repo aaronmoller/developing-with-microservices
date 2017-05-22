@@ -1,1 +1,1 @@
-This is a presentation that introduces microservices and microservice architecture.
+This is a presentation that introduces microservices and microservice architecture. Forms InMotion is required to run all functionality of the demos.

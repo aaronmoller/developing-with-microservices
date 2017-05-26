@@ -152,3 +152,7 @@ p.list-heading {
 .reveal .small-text .flex-child p {
     font-size: 1.5rem;
 }
+.reveal table#contentServices tr td {
+    font-size: 1.5rem;
+    color: #dedede;
+}
